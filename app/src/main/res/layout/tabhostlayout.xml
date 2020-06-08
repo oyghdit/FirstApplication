@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:id="@+id/tabhost1">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TabWidget
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@android:id/tabs"/>//这个标签注意格式
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:id="@android:id/tabcontent"/>
+    </LinearLayout>
+
+</TabHost>

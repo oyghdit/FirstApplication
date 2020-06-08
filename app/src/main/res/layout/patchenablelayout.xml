@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="150px"
+        android:layout_margin="15px"
+        android:id="@+id/patchenbut1"
+        android:background="@drawable/button_state1"
+        android:text="我是可用按钮"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="150px"
+        android:layout_margin="15px"
+        android:layout_marginTop="5px"
+        android:background="@drawable/caodi"
+        android:id="@+id/patchenbut2"
+        android:text="单击我可以让上面的按钮变为可用"/>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/qq8">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="性别:"
+        android:textSize="50dp"
+
+        />
+    <RadioGroup
+        android:id="@+id/rbg1"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbt1"
+            android:text="男"
+            android:textSize="50dp"
+            android:checked="true"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rbt2"
+            android:text="女"
+            android:textSize="50dp"/>
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/but1"
+        android:text="提交"
+        android:textSize="50dp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+
+        >
+
+    </Button>
+
+
+
+</LinearLayout>

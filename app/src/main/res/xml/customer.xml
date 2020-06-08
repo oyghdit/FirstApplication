@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <customers>
+        <customer name="张三" email="192381...@qq.com"/>
+        <customer name="李四" email="67289...@163.com"/>
+    </customers>
+</resources>

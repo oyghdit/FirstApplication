@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FirstApplication</string>
+    <string name="word">Nothing is impossible to a willing heart.</string>
+    <string name="short_click">短时间单击</string>
+    <string name="long_click">长时间单击</string>
+    <string name="usename">用户名</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="world_read">全局可读：</string>
+    <string name="world_write">全局可写：</string>
+    <string name="word_read_write">全局可读可写：</string>
+    <string name="save">保存键值对</string>
+    <string name="hello">你好</string>
+
+
+</resources>

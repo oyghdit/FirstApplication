@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/fra1"
+    android:background="@drawable/game2"
+    >
+ <TextView
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:text="使用XML控制UI界面"
+     android:textColor="#ae00ae"
+     android:textSize="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="点击开始游戏"
+
+        android:textSize="50dp"/>
+
+</FrameLayout>
